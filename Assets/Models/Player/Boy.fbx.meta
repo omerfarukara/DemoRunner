@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 0dcca67a87b343c408f7abb74d0e9024
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 20300
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -12,12 +12,27 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: clothes1.001
+    second: {fileID: 2100000, guid: b42e1b1695b434cf1bb17577d0d7fd3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: phong1
+    second: {fileID: 2100000, guid: b42e1b1695b434cf1bb17577d0d7fd3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1.001
     second: {fileID: 2100000, guid: 04c488f3b4d604f5392d887f23b532ca, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: skin1
+    second: {fileID: 2100000, guid: 04c488f3b4d604f5392d887f23b532ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin1.001
     second: {fileID: 2100000, guid: 04c488f3b4d604f5392d887f23b532ca, type: 2}
   materials:
     materialImportMode: 2
@@ -29,7 +44,6 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -59,7 +73,6 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -71,7 +84,6 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
